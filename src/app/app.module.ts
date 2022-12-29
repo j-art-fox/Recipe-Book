@@ -5,9 +5,10 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { headerComponent } from './header/header.component';
 import { RecipesComponent } from './recipes/recipes.component';
+import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
 
 @NgModule({
-  declarations: [AppComponent, headerComponent, RecipesComponent],
+  declarations: [AppComponent, headerComponent, RecipesComponent, RecipeListComponent],
   imports: [BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
